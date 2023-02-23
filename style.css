@@ -58,7 +58,7 @@ body, .video-timer, .video-controls, .options{
 }
 .progress-area .progress-bar{
     position: relative;
-    width: 50%;
+    width: 0%;
     height: 100%;
     background: #2289ff;
 }
@@ -135,7 +135,7 @@ body, .video-timer, .video-controls, .options{
     pointer-events: none;
     transition: opacity 0.2s ease;
 }
-.playback-content button:hover ~ .speed-options{
+.playback-content .speed-options.showOptions{
     opacity: 1;
     pointer-events: auto;
 }

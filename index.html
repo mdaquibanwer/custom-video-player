@@ -23,7 +23,7 @@
             <ul class="video-controls">
                 <li class="options left">
                     <button class="volume"><i class="fas fa-volume-high"></i></button>
-                    <input type="range">
+                    <input type="range" min="0" max="1" step="any">
                     <div class="video-timer">
                         <p class="current-time">00:00</p>
                         <p class="seperator"> / </p>
@@ -41,14 +41,14 @@
                             <span class="material-symbols-rounded">slow_motion_video</span>
                         </button>
                         <ul class="speed-options">
-                            <li>2x</li>
-                            <li>1.75x</li>
-                            <li>1.50x</li>
-                            <li>1.25x</li>
-                            <li class="active">1x</li>
-                            <li>0.75x</li>
-                            <li>0.5x</li>
-                            <li>0.25x</li>
+                            <li data-speed="2">2x</li>
+                            <li data-speed="1.75">1.75x</li>
+                            <li data-speed="1.50">1.50x</li>
+                            <li data-speed="1.25">1.25x</li>
+                            <li data-speed="1" class="active">1x</li>
+                            <li data-speed="0.75">0.75x</li>
+                            <li data-speed="0.50">0.5x</li>
+                            <li data-speed="0.25">0.25x</li>
                         </ul>
                     </div>
                     <button class="pic-in-pic">
